@@ -1,0 +1,38 @@
+<!-- Main container -->
+<div class="container">
+<nav class="columns has-text-centered-mobile  is-vcentered">
+  <!-- Left side -->
+  <div class="column is-narrow-desktop is-3-mobile  has-text-centered">
+      <figure class="image has-max-size is-inline-block">
+          <a href="{{ SITEURL }}">
+          <img src="{{ SITEURL }}/theme/images/logo/logo_small.png" alt="{{ SITENAME }}">
+              </a>
+          </figure>
+  </div>
+      <div class="column is-hidden-mobile">
+        <a class="is-size-1-desktop is-size-4 has-text-black has-text-weight-light">
+            {{ SITENAME }}
+          </a>
+    </div>
+  <!-- Right side -->
+    <div class="column has-text-right-tablet has-text-right-desktop">
+          {% for name, link, output_file_id in LINKS_HEADER %}
+          <a class="button is-size-5-desktop is-size-6 has-text-black has-text-weight-semibold
+          {% if output_file_id == output_file %} is-static {% endif %}" href="{{ SITEURL }}/{{ link }}">
+            {{ name }}
+          </a>
+        {% endfor %}
+
+        {% if DISPLAY_PAGES_ON_MENU %}
+          {% for p in pages %}
+          <a class="button is-size-5-desktop is-size-6 has-text-black has-text-weight-semibold
+          {% if p == page %} is-static {% endif %}" href="{{ SITEURL }}/{{ p.url }}">
+            {{ p.title }}
+          </a>
+          {% endfor %}
+                  {% endif %}
+        </div>
+
+            </nav>
+    </div>
+<hr />

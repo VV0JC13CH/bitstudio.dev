@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block content %}
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container">
+                        <div class="columns">
+                            <div class="column is-2 has-text-left">
+                                {% if article.thumbnail %}
+                                <figure class="image is-1by1" style="margin: 0px">
+                                    <img src="{{ SITEURL }}/{{article.thumbnail}}" alt="{{ article.title }}">
+                                </figure>
+                                {% else %}
+                                <figure class="image is-1by1" style="margin: 0px">
+                                    <img src="{{ SITEURL }}/theme/images/logo/logo_small.png" alt="{{ article.title }}">
+                                </figure>
+                                {% endif %}
+                            </div>
+
+                            <div class="column is-10">
+                                {% if not article.modified %}
+                            <h2 class="subtitle is-5 has-text-grey is-marginless">
+                                {{ article.locale_date }}
+                            </h2>
+                                {% endif %}
+                                {% if article.modified %}
+                                <h2 class="subtitle is-6 has-text-grey is-marginless">
+                                    Published: {{ article.locale_date }}
+                                </h2>
+                                <h6 class="subtitle is-6 has-text-grey is-marginless">
+                                    Updated: {{ article.locale_modified }}
+                                </h6>
+                                    {% endif %}
+                            <h1 class="title is-3  is-marginless">
+                                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                                title="Permalink to {{ article.title|striptags }}" class="has-text-black">
+                                {{ article.title }}
+                                </a>
+                            </h1>
+                                <div class="columns">
+                                    <div class="column is-narrow"><hr />
+
+
+                                <div class="breadcrumb is-small" aria-label="breadcrumbs">
+                                {% if article.authors %}
+                                    <ul><span>Written by:</span>
+                                {% for author in article.authors %}<li>
+                                <a class="has-black-text" href="{{ SITEURL }}/{{ author.url }}">
+                                    {{ author }}
+                                </a></li>
+                                {% endfor %}
+                                        </ul>
+                                {% endif %}
+
+                                {% if article.tags %}
+                                    <ul><span>Keywords:</span>
+                                        <li><a href="{{ SITEURL }}/{{ category.url }}">{{article.category}}</a></li>
+                                        {% for tag in article.tags %}
+                                        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{tag}}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}</div>
+
+                                    </div>
+                                    <div class="column has-text-right _has-social-buttons" style="position: relative; float:right;">
+                                        <ul class="is-hidden-touch" style="position: absolute; bottom: 1em; right: 1em;">
+                                {% if AUTHOR_TWITTER %}
+                                        <li class="button is-small">
+                                <a target="_blank" href="http://twitter.com/share?text={{ article.title }}&url={{ SITEURL }}/{{ article.url }}&via={{ AUTHOR_TWITTER }}">
+                                        <i class="fab fa-twitter"></i>
+                                    &nbsp;Share
+                                </a>
+                                        </li>
+                                {% endif %}
+                                        <li class="button is-small">
+                                 <a href="#githublink-to-content">
+                                        <i class="fab fa-github"></i>
+                                    &nbsp;Edit
+                                </a>
+                                        </li>
+                                 </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                        <div class="content">
+                        <article class="has-text-dark">{{ article.content }}</article>
+                    </div>
+
+                    <div class="box">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded" src="/theme/images/author/avatar_round.png" alt="thisWojciech">
+              </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>{{AUTHOR}}</strong> {% if AUTHOR_SOCIAL %}
+{% for portal, link, name, icon in AUTHOR_SOCIAL %}
+<small class="tag is-small"><i class="{{icon}}" aria-hidden="true"></i>&nbsp;
+    <a href="{{ link }}" class="has-text-blue" >{{portal}}</a></small>
+{% endfor %}
+{% endif %}
+</p>
+          <p>
+            {{AUTHOR_BIO}}
+        </p>
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item button is-danger" aria-label="reply" href="https://ko-fi.com/{{AUTHOR_KO_FI}}">
+            <span class="icon is-small">
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+            </span>
+              &nbsp;<span>Buy me a coffee!</span>
+          </a>
+            <a class="level-item button is-warning" aria-label="reply" href="https://t.me/{{AUTHOR_TELEGRAM}}">
+            <span class="icon is-small">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </span>
+              &nbsp;<span>Telegram me!</span>
+          </a>
+            <a class="level-item button is-link" aria-label="reply" href="https://discord.gg/{{AUTHOR_DISCORD}}/">
+            <span class="icon is-small">
+              <i class="fab fa-discord" aria-hidden="true"></i>
+            </span>
+              &nbsp;<span>Write on my discord!</span>
+          </a>
+        </div>
+
+      </nav>
+    </div>
+  </article>
+</div>
+                </div>
+            </div>
+        </section>
+{% endblock %}
