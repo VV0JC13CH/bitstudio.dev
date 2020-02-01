@@ -42,11 +42,11 @@
 
                               {% endif %}
                       </div>
-                          <div class="column is-8 has-text-left">
+                          <div class="column is-8 is-11-mobile has-text-left">
                         <h5 class="title is-5 has-text-weight-normal">{{ article.title }}</h5>
                         <h6 class="subtitle is-6 has-text-grey has-text-weight-normal">{{ article.locale_date }}</h6>
                           </div>
-                            <div class="column is-3 has-text-right">
+                            <div class="column is-3 is-hidden-mobile has-text-right">
                            {% for tag in article.tags %}
                              <span class="tag is-success">
                                  {{ tag }}
