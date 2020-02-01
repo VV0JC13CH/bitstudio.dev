@@ -30,6 +30,7 @@ ARTICLE_EXCLUDES = ['extra']
 ARTICLE_SAVE_AS = '{slug}/index.html'
 ARTICLE_URL = '{slug}/'
 ARTICLE_ORDER_BY = 'reversed-date'
+ARTICLE_EDIT_URL = 'https://github.com/bitStudioDev/bitstudio.dev/tree/master/content/'
 
 # ARCHIVES
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
