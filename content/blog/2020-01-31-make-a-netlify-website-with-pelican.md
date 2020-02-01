@@ -1,7 +1,7 @@
 Title: Make a Netlify Website with Pelican
 Date: 2020-01-31 16:00
 Category: Python
-Tags: github, netlify, pelican
+Tags: netlify, pelican
 Slug: make-a-netlify-website-with-pelican
 Authors: Wojciech Bobrowski
 template: article
