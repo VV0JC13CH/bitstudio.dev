@@ -2,7 +2,7 @@ Title: About me
 Date: 2020-01-28 06:00
 Modified: 2020-01-28 16:00
 Category: Site
-Template: page
+Template: page_contact
 Slug: about
 Authors: Wojciech Bobrowski
 Summary: Few words about me
@@ -13,4 +13,4 @@ and everything what is interesting enough to publish.
 
 bitStudio is just a one-man-site, so if you want to follow up content on this site, you can follow me as well.
 
-If you have any questions, doubts or maybe you found error in article, don't hesitate to send me an email at wojciech@bitstudio.dev.
+If you have any questions, doubts or maybe you found error in article, don't hesitate to send me message.
