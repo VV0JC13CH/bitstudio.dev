@@ -92,8 +92,8 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_ALL_ATOM = '/feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = '/feeds/{slug}.atom.xml'
 # TRANSLATION_FEED_ATOM = None
 # AUTHOR_FEED_ATOM = None
 # AUTHOR_FEED_RSS = None
@@ -128,7 +128,7 @@ LINKS_HEADER = (('Articles', ARCHIVES_URL, 'articles/index.html'),
 # Footer links on the left:
 LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
                 ('Newsletter', SITEURL + '/newsletter'),
-                ('RSS', FEED_ALL_ATOM),)
+                ('RSS', SITEURL + FEED_ALL_ATOM),)
 
 # Social widget
 SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
