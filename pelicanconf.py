@@ -128,7 +128,7 @@ LINKS_HEADER = (('Articles', ARCHIVES_URL, 'articles/index.html'),
 # Footer links on the left:
 LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
                 ('Newsletter', SITEURL + '/newsletter'),
-                ('RSS', '#'),)
+                ('RSS', FEED_ALL_ATOM),)
 
 # Social widget
 SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
