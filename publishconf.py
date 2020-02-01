@@ -14,8 +14,8 @@ from pelicanconf import *
 SITEURL = 'https://bitstudio.dev'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_ALL_ATOM = SITEURL + '/feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = SITEURL + '/feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

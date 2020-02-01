@@ -31,6 +31,8 @@ ARTICLE_SAVE_AS = '{slug}/index.html'
 ARTICLE_URL = '{slug}/'
 ARTICLE_ORDER_BY = 'reversed-date'
 ARTICLE_EDIT_URL = 'https://github.com/bitStudioDev/bitstudio.dev/tree/master/content/'
+ARTICLE_SUGGEST_CHANGES_URL = 'https://github.com/bitStudioDev/bitstudio.dev/issues/'
+
 
 # ARCHIVES
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
@@ -92,11 +94,11 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = '/feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = '/feeds/{slug}.atom.xml'
-# TRANSLATION_FEED_ATOM = None
-# AUTHOR_FEED_ATOM = None
-# AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # PAGINATION
 DEFAULT_PAGINATION = 7
@@ -127,8 +129,7 @@ LINKS_HEADER = (('Articles', ARCHIVES_URL, 'articles/index.html'),
 
 # Footer links on the left:
 LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
-                ('Newsletter', SITEURL + '/newsletter'),
-                ('RSS', SITEURL + FEED_ALL_ATOM),)
+                ('Newsletter', SITEURL + '/newsletter'),)
 
 # Social widget
 SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
