@@ -125,10 +125,11 @@ In this tutorial scenario, we will use github.com as a place for the git reposit
 ### Create requirements.txt in the root directory
 Open it with the editor of your choice, it can be nano/atom/notepad++ and paste a list of packages installed in your Pelican virtualenv. Below I posted my list. State of current versions dated 31st Jan 2020.
 ```python
-Markdown==3.1.1
 pelican==4.2.0
+typogrify==2.0.7
+Markdown==3.1.1
 ```
- - You can decide to remove version tags (e.g.`==3.1.1`) in order to have packages up-to-date, but it's not recommended, it's a matter of time that the site will be down after upgrade one of these. Believe me.
+ - You can decide to remove version tags (e.g.`==4.2.0`) in order to have packages up-to-date, but it's not recommended, it's a matter of time that the site will be down after upgrade one of these. Believe me.
 ## Create repository
 Create a new repository in service of your choice (GitHub / GitLab / GitBucket). In the case of blogs and wikis, I recommend making repository ___public___. This way it's possible to:
 
