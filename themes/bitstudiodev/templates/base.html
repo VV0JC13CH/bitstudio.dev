@@ -72,6 +72,9 @@
 {% for name, link in LINKS_FOOTER %}
 <a href="{{ link }}">{{ name }}</a>
 {% endfor %}
+          {% if FEED_ALL_ATOM %}
+<a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">RSS</a>
+          {% endif %}
 {% endif %}
       </div>
       <div class="column is-4 has-text-right">
