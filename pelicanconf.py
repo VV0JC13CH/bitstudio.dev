@@ -46,13 +46,13 @@ AUTHOR_URL = 'author/{slug}'
 # AUTHOR
 AUTHOR = 'Wojciech'  # Default author
 AUTHOR_MAIL = 'wojciech@'
-AUTHOR_MAILTO = 'wojciech[AT]bitstudio[DOT]dev'
+AUTHOR_MAILTO = 'wojciech@bitstudio.dev'
 AUTHOR_DISCORD = 'DECS7TA'
 AUTHOR_TELEGRAM = 'https://t.me/joinchat/AAAAAEyR3QNxxzZtvwUcYg'
-AUTHOR_TWITTER = 'thisWojciech'
-AUTHOR_GITHUB = 'thisWojciech'
-AUTHOR_LINKED = 'thiswojciech'
-AUTHOR_KO_FI = 'thisWojciech'
+AUTHOR_TWITTER = 'VV0JCIECH'
+AUTHOR_GITHUB = 'VV0JCIECH'
+AUTHOR_LINKED = 'VV0JCIECH'
+AUTHOR_KO_FI = 'VV0JCIECH'
 AUTHOR_BIO = 'This is my personal site. I write about the things I learn and projects I develop. ' \
              'As a language I use mainly python, sometimes its php, c# or javascript. ' \
              'Enjoy my content.'
@@ -135,7 +135,7 @@ LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
 SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
 SOCIAL_MAILCHIMP_NEWSLETTER_PAGE = 'https://mailchi.mp/7a1a9d334e2a/bitstudiodev2'
 SOCIAL_MAIL = 'office@'
-SOCIAL_MAILTO = 'office[AT]bitstudio[DOT]dev'
+SOCIAL_MAILTO = 'office@bitstudio.dev'
 SOCIAL_DISCORD = AUTHOR_DISCORD
 SOCIAL_YOUTUBE = 'UCmRtyJbc6MsZS86-ZZXV2JA'
 SOCIAL_TWITTER = 'bitstudiodev'
