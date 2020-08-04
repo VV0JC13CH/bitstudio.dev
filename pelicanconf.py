@@ -57,7 +57,7 @@ AUTHOR_BIO = 'This is my personal site. I write about the things I learn and pro
              'As a language I use mainly python, sometimes its php, c# or javascript. ' \
              'Enjoy my content.'
 
-AUTHOR_SOCIAL = (('Mail', 'mailto:' + AUTHOR_MAILTO, AUTHOR_MAIL + DOMAIN, 'fa fa-at'),
+AUTHOR_SOCIAL = (('Mail', 'mailto:' + AUTHOR_MAILTO, AUTHOR_MAIL, 'fa fa-at'),
                  ('Github', 'https://github.com/' + AUTHOR_GITHUB, AUTHOR_GITHUB, 'fab fa-github'),
                  ('Twitter', 'https://twitter.com/' + AUTHOR_TWITTER, '@' + AUTHOR_TWITTER, 'fab fa-twitter'),
                  ('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI, AUTHOR_KO_FI, 'fa fa-coffee'),
@@ -141,7 +141,7 @@ SOCIAL_YOUTUBE = 'UCmRtyJbc6MsZS86-ZZXV2JA'
 SOCIAL_TWITTER = 'bitstudiodev'
 SOCIAL_GITHUB = 'bitStudioDev'
 
-SOCIAL = (('Mail', 'mailto:' + SOCIAL_MAILTO, SOCIAL_MAIL + DOMAIN, 'fa fa-at'),
+SOCIAL = (('Mail', 'mailto:' + SOCIAL_MAILTO, SOCIAL_MAIL, 'fa fa-at'),
           ('Github', 'https://github.com/' + SOCIAL_GITHUB, SOCIAL_GITHUB, 'fab fa-github'),
           ('Twitter', 'https://twitter.com/' + SOCIAL_TWITTER, SOCIAL_TWITTER,'fab fa-twitter'),
           ('YouTube', 'https://www.youtube.com/channel/' + SOCIAL_YOUTUBE, SITENAME, 'fab fa-youtube'),
