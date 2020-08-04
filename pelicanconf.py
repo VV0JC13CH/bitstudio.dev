@@ -45,7 +45,7 @@ AUTHOR_URL = 'author/{slug}'
 
 # AUTHOR
 AUTHOR = 'Wojciech'  # Default author
-AUTHOR_MAIL = 'wojciech@'
+AUTHOR_MAIL = 'wojciech'
 AUTHOR_MAILTO = 'wojciech@bitstudio.dev'
 AUTHOR_DISCORD = 'DECS7TA'
 AUTHOR_TELEGRAM = 'https://t.me/joinchat/AAAAAEyR3QNxxzZtvwUcYg'
@@ -134,14 +134,14 @@ LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
 # Social widget
 SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
 SOCIAL_MAILCHIMP_NEWSLETTER_PAGE = 'https://mailchi.mp/7a1a9d334e2a/bitstudiodev2'
-SOCIAL_MAIL = 'office@'
+SOCIAL_MAIL = 'office'
 SOCIAL_MAILTO = 'office@bitstudio.dev'
 SOCIAL_DISCORD = AUTHOR_DISCORD
 SOCIAL_YOUTUBE = 'UCmRtyJbc6MsZS86-ZZXV2JA'
 SOCIAL_TWITTER = 'bitstudiodev'
 SOCIAL_GITHUB = 'bitStudioDev'
 
-SOCIAL = (('Mail', 'mailto:' + AUTHOR_MAILTO, AUTHOR_MAIL + DOMAIN, 'fa fa-at'),
+SOCIAL = (('Mail', 'mailto:' + SOCIAL_MAILTO, SOCIAL_MAIL + DOMAIN, 'fa fa-at'),
           ('Github', 'https://github.com/' + SOCIAL_GITHUB, SOCIAL_GITHUB, 'fab fa-github'),
           ('Twitter', 'https://twitter.com/' + SOCIAL_TWITTER, SOCIAL_TWITTER,'fab fa-twitter'),
           ('YouTube', 'https://www.youtube.com/channel/' + SOCIAL_YOUTUBE, SITENAME, 'fab fa-youtube'),
