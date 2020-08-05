@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% block popup %}{% include 'popup_newsletter.html' %}{% endblock popup %}
 {% block content %}
         <div class="columns is-vcentered">
           <div class="column is-5 is-offset-2">
@@ -13,14 +12,16 @@
               <figure class="image is-96x96 is-inline-block">
                 <img class="is-rounded" src="{{ SITEURL }}/theme/images/author/avatar_round.png" alt="{{ AUTHOR }}">
               </figure>
-              <h4 class="title is-4">Email Newsletter</h4>
+              <h4 class="title is-4">Twitter</h4>
                 <h6 class="subtitle is-6">Get an update when something new comes out!</h6>
-                <button class="button is-link is-medium is-rounded" onclick="togglePopUp()">
+                <a class="button is-link is-medium is-rounded" href="https://twitter.com/{{SOCIAL_TWITTER}}">
+                <button class="button is-link is-medium is-rounded">
                   <span class="icon is-small">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fab-twitter"></i>
                   </span>
-                  <span>Subscribe</span>
+                  <span>Follow</span>
                 </button>
+                </a>
             </div>
           </div>
         </div>

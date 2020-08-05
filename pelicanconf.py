@@ -128,12 +128,9 @@ LINKS_HEADER = (('Articles', ARCHIVES_URL, 'articles/index.html'),
                 )
 
 # Footer links on the left:
-LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),
-                ('Newsletter', SITEURL + '/newsletter'),)
+LINKS_FOOTER = (('Ko-Fi', 'https://ko-fi.com/' + AUTHOR_KO_FI),)
 
 # Social widget
-SOCIAL_MAILCHIMP_CONTACT_PAGE = 'https://mailchi.mp/86d36867318c/bitstudiodev'
-SOCIAL_MAILCHIMP_NEWSLETTER_PAGE = 'https://mailchi.mp/7a1a9d334e2a/bitstudiodev2'
 SOCIAL_MAIL = 'office'
 SOCIAL_MAILTO = 'office@bitstudio.dev'
 SOCIAL_DISCORD = AUTHOR_DISCORD
