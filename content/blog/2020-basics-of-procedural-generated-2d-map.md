@@ -33,7 +33,7 @@ In my example I generate 2D map, but there is no obstacles to make it 3D. I crea
 for different representation of Z coordinate. Z is going to have values from -1.0 to 1.0. Everything below 0.1 is going 
 to be ocean, then I made some greenery, rocks and snow on top of mountains.
 
-Preview: ![Colors]({filename}/images/2020-08-procedural-map-colors.png)
+Preview: ![Colors]({static}/images/2020-08-procedural-map-colors.png)
 
 ### Code review
 Let me explain best parts:
@@ -108,7 +108,7 @@ In each update:
 5. back to point 1.
 
 ## Preview
-![procedural-map-generation]({filename}/images/2020-08-procedural-map-generation.gif)
+![procedural-map-generation]({static}/images/2020-08-procedural-map-generation.gif)
 
 Code with sprites is avaivable on my github [here](https://github.com/bitStudioDev/arcade-examples/tree/master/examples/04_perlin_noise).
 
