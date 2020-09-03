@@ -1,7 +1,7 @@
 Jinja2==2.11.2
 Markdown==3.1.1
 MarkupSafe==1.1.1
-Pygments==2.6.1
+Pygments==2.5.2
 Unidecode==1.1.1
 blinker==1.4
 docutils==0.16
