@@ -1,3 +1,4 @@
 pelican
 typogrify
 Markdown
+collections.abc
