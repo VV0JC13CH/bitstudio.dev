@@ -1,4 +1,3 @@
-pelican
+pelican==4.2.0
 typogrify
 Markdown
-collections
