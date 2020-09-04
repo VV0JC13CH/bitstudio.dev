@@ -54,7 +54,7 @@ AUTHOR_GITHUB = 'VV0JCIECH'
 AUTHOR_LINKED = 'VV0JCIECH'
 AUTHOR_KO_FI = 'VV0JCIECH'
 AUTHOR_BIO = 'This is my personal site. I write about the things I learn and projects I develop. ' \
-             'As a language I use mainly python, sometimes its php, c# or javascript. ' \
+             'As a language I use mainly python, sometimes its lua, c# or Go. ' \
              'Enjoy my content.'
 
 AUTHOR_SOCIAL = (('Mail', 'mailto:' + AUTHOR_MAILTO, AUTHOR_MAIL, 'fa fa-at'),
@@ -142,7 +142,7 @@ SOCIAL = (('Mail', 'mailto:' + SOCIAL_MAILTO, SOCIAL_MAIL, 'fa fa-at'),
           ('Github', 'https://github.com/' + SOCIAL_GITHUB, SOCIAL_GITHUB, 'fab fa-github'),
           ('Twitter', 'https://twitter.com/' + SOCIAL_TWITTER, SOCIAL_TWITTER,'fab fa-twitter'),
           ('YouTube', 'https://www.youtube.com/channel/' + SOCIAL_YOUTUBE, SITENAME, 'fab fa-youtube'),
-          ('Discord', 'https://discord.gg/' + SOCIAL_DISCORD, SITENAME, 'fab fa-discord'),)
+          ('Discord', 'http://discord.gg/' + SOCIAL_DISCORD, SITENAME, 'fab fa-discord'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
