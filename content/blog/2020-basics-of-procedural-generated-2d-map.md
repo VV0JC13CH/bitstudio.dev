@@ -1,7 +1,7 @@
 Title: Basics of procedural 2D map generation
 Date: 2020-08-05 01:00
-Category: Python
-Tags: gamedev, arcade
+Category: GameDev
+Tags: guides, WIP
 Slug: basics-of-procedural-2D-map-generation
 Authors: Wojciech Bobrowski
 template: article

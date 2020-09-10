@@ -1,7 +1,7 @@
 Title: Embedded cross-platform python databases
 Date: 2020-08-28 12:00
 Category: Python
-Tags: benchmark, databases
+Tags: benchmark, WIP
 Slug: embedded-cross-platform-python-databases
 Authors: Wojciech Bobrowski
 template: article
