@@ -140,7 +140,6 @@ SOCIAL_GITHUB = 'bitStudioDev'
 
 SOCIAL = (('Mail', 'mailto:' + SOCIAL_MAILTO, SOCIAL_MAIL, 'fa fa-at'),
           ('Github', 'https://github.com/' + SOCIAL_GITHUB, SOCIAL_GITHUB, 'fab fa-github'),
-          ('Twitter', 'https://twitter.com/' + SOCIAL_TWITTER, SOCIAL_TWITTER,'fab fa-twitter'),
           ('YouTube', 'https://www.youtube.com/channel/' + SOCIAL_YOUTUBE, SITENAME, 'fab fa-youtube'),
           ('Discord', 'http://discord.gg/' + SOCIAL_DISCORD, SITENAME, 'fab fa-discord'),)
 
