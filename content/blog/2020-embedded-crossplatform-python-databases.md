@@ -1,4 +1,4 @@
-Title: Embedded cross-platform python databases
+Title: Cross-platform python databases
 Date: 2020-08-28 12:00
 Category: Python
 Tags: benchmark, WIP
