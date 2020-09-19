@@ -53,7 +53,9 @@ and [10K](https://gist.githubusercontent.com/VV0JCIECH/a4b0e92f7660d8cae50d708fa
 It looks like Vedis (#1) and UnQlite (#2) are still the quickest embedded cross-platform DBs for Python. Semidbm got also
 great result (#3). DBM.dumb (#4) and SQLiteDict (#5) are not a demons of speed. Tinydb (#7) and Picledb (#8) were
 so slow that I had to remove them from the graph to keep it clean. Results of Redis (#6) were also below expectations
-(w:18/r:20s), but it might be because I kept docker instance on my Mac. It looks like my comparison is also unscientific.
+(w:18/r:20s), but it might be because I kept docker instance on my Mac. It looks like my comparison is unscientific as
+[original one](https://charlesleifer.com/blog/completely-un-scientific-benchmarks-of-some-embedded-databases-with-python/).
+
 
 ![Graph]({static}/images/2020-09-embedded-cross-platform-python-databases.png)
 
