@@ -112,3 +112,8 @@ In this "lab" I created structure like below:
 
 I published my code as a gist [here](https://gist.github.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519). Please feel
 free to edit and run this code for yourself.
+
+## Links
+
+- nwdiag [git](https://github.com/blockdiag/nwdiag) / [docs](http://blockdiag.com/en/nwdiag/index.html)
+- N2G [git](https://github.com/dmulyalin/N2G) / [docs](https://github.com/dmulyalin/N2G)
