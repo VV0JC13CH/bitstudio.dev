@@ -2,7 +2,7 @@ Title: Procedural 2D map generation
 Date: 2020-08-05 01:00
 Category: GameDev
 Tags: guides, WIP
-Slug: basic-of-procedural-2D-map-generation
+Slug: basics-of-procedural-2D-map-generation
 Authors: Wojciech Bobrowski
 template: article
 thumbnail: images/thumbnails/arcade.png
