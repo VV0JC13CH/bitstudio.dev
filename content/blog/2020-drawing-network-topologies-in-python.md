@@ -80,7 +80,9 @@ In this "lab" I created structure like below:
 ./diagrams/[ndwiag.diag](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag.diag)  
 ./diagrams/[ndwiag.png]({static}/images/2020-09-network-topologies-ndwiag.png)  
 ./diagrams/[output_drawio.drawio](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_drawio.drawio)  
+./diagrams/[output_drawio_export.png]({static}/images/2020-09-network-topologies-n2gDrawio.png)  
 ./diagrams/[output_yEd.graphml](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_yEd.graphml)  
+./diagrams/[output_yEd_export.png]({static}/images/2020-09-network-topologies-n2gyEd.png)  
 <strong>Scripts:</strong>  
 ./[n2g_d_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_drawio_handler.py)  
 ./[n2g_y_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_yEd_handler.py)  
