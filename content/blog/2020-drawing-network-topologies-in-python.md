@@ -101,14 +101,14 @@ Quick overview of my outputs. I'm not going to replace docs of these modules, so
 In this "lab" I created structure like below:
 
 <strong>Source and output files:</strong>  
-./diagrams/ndwiag.diag  
-./diagrams/ndwiag.png  
-./diagrams/output_drawio.drawio
-./diagrams/output_yEd.graphml  
+./diagrams/[ndwiag.diag](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag.diag)  
+./diagrams/[ndwiag.png]({static}/images/2020-09-network-topologies-ndwiag.png)  
+./diagrams/[output_drawio.drawio](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_drawio.drawio)  
+./diagrams/[output_yEd.graphml](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_yEd.graphml)  
 <strong>Scripts:</strong>  
-./n2g_d_handler.py  
-./n2g_y_handler.py  
-./ndwiag_handle.py  
+./[n2g_d_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_drawio_handler.py)  
+./[n2g_y_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_yEd_handler.py)  
+./[ndwiag_handle.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag_handler.py)  
 
 I published my code as a gist [here](https://gist.github.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519). Please feel
 free to edit and run this code for yourself.
