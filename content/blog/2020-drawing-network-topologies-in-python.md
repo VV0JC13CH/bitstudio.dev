@@ -41,8 +41,8 @@ is going to be on which side.
 if we want to use it for computer networks.
 - [matplotlib.pyplot](https://matplotlib.org/3.3.1/api/_as_gen/matplotlib.pyplot.html) - Same issue as above, but you know
 sky is the limit.
-- [PcapViz (yEd Graph Editor)](https://github.com/mateuszk87/PcapViz) - It's the only module which uses discovery
-mechanism. It's great once you have all devices exposed in network.
+- [PcapViz (yEd Graph Editor)](https://github.com/mateuszk87/PcapViz) by [mateuszk87](https://github.com/mateuszk87) - It's the only module which uses discovery
+mechanism. Script draws network based on discovered traces of level 2 and 3.
 
 ### Comparison
 
