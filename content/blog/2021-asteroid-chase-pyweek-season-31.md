@@ -83,5 +83,5 @@ We'd be grateful if you rated the game as we think it's really fun.
 
 ## Watch game on YouTube
 
-![youtube]({static}/images/2021-04-asteroid-chase-youtube.gif)
+![youtube]({static}/images/2021-04-asteroid-chase-youtube.png)
 
