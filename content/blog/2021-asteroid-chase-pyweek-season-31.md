@@ -1,7 +1,7 @@
 Title: Asteroid Chase - Pyweek, Season 31
 Date: 2021-04-15 01:00
 Category: GameDev
-Tags: python, gamejam
+Tags: gamejam
 Slug: pyweek31-asteroid-chase
 Authors: Wojciech Bobrowski
 template: article
