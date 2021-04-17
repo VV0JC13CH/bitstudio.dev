@@ -32,18 +32,18 @@ believed at that time that "bridging the gaps" will win as a theme. I wanted to 
 [Kid Francescoli - "Moon"](https://youtu.be/fdixQDPA2h0) videoclip. Like some dude run and you have to help him by 
 filling gaps in front of him on time. But yeah, I mentioned that top 1 theme never wins. Do guess what, Cops win. Our
 number 5. We didn't have even idea for that game... 
-<p align="center">
-![aquila]({static}/images/2021-04-asteroid-chase-aquila.gif)![snooker]({static}/images/2021-04-asteroid-chase-snooker.gif)
-</p>
+
+![aquila]({static}/images/2021-04-asteroid-chase-aquila.gif) ![snooker]({static}/images/2021-04-asteroid-chase-snooker.gif)
+
 ## Cops
 Mit-mit was like a fish in a sea. We made a 0-hour meeting. For me it was 1am, for him 11am, as we are from 
 different timezones. Double-Mit had the idea. Space chase. Left-to-right chase game with 
 [pyMunk](http://www.pymunk.org/en/latest/) as a physic game engine. Soon he came with first art:
-<p align="center">
+
 ![first art]({static}/images/2021-04-asteroid-chase-art.png)
-</p>
+
 So I started to look for inspiration. 
-(Mini-map defender)[https://arcade.academy/examples/mini_map_defender.html#mini-map-defender] tutorial looked perfect, 
+[Mini-map defender](https://arcade.academy/examples/mini_map_defender.html#mini-map-defender) tutorial looked perfect, 
 as a starting point. Soon it turned out that the choice of the ready code will only slow us down, as we only discovered 
 new bugs in framework.
 
@@ -70,9 +70,9 @@ You play as Jake. He is a police officer from the Outer Ring,
 which has just arrived in the capital to repair his rusty police ship. 
 His plans change when he hears about a grand theft on the police radio. 
 Help him catch the thieves of the imperial crown!
-<p align="center">
+
 ![gameplay]({static}/images/2021-04-asteroid-chase-gameplay.gif)
-</p>
+
 The plans were huge. Inventory, weapons, cutscenes, non-linear plot ... yeah. I had the idea to draw the parts of the 
 crown one by one to reward the player on the end of each level. The player had to shoot the enemies, and when their 
 shield dropped to zero, the player could arrest enemies later on. Unfortunately one week is very short period of time. 
@@ -82,6 +82,5 @@ We invite you to [download](https://github.com/bitStudioDev/PyWeek31-Asteroid-Ch
 We'd be grateful if you rated the game as we think it's really fun.
 
 ## Watch game on YouTube
-<p align="center">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b31-toqAYNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
