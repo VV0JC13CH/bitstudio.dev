@@ -48,8 +48,8 @@ repeated test for 100K pairs, but I had to exclude two the slowest modules (spoi
 
 ### The results
 
-Results for [100K](https://gist.githubusercontent.com/VV0JCIECH/a4b0e92f7660d8cae50d708fa394578e/raw/23f20742265ad4f08d7c4f544d3bbf60797e9ea1/x_output_n=100000)
-and [10K](https://gist.githubusercontent.com/VV0JCIECH/a4b0e92f7660d8cae50d708fa394578e/raw/23f20742265ad4f08d7c4f544d3bbf60797e9ea1/x_output_n=10000) are same.
+Results for [100K](https://gist.githubusercontent.com/VV0JC13CH/a4b0e92f7660d8cae50d708fa394578e/raw/23f20742265ad4f08d7c4f544d3bbf60797e9ea1/x_output_n=100000)
+and [10K](https://gist.githubusercontent.com/VV0JC13CH/a4b0e92f7660d8cae50d708fa394578e/raw/23f20742265ad4f08d7c4f544d3bbf60797e9ea1/x_output_n=10000) are same.
 It looks like Vedis (#1) and UnQlite (#2) are still the quickest embedded cross-platform DBs for Python. Semidbm got also
 great result (#3). DBM.dumb (#4) and SQLiteDict (#5) are not a demons of speed. Tinydb (#7) and Picledb (#8) were
 so slow that I had to remove them from the graph to keep it clean. Results of Redis (#6) were also below expectations
@@ -62,7 +62,7 @@ so slow that I had to remove them from the graph to keep it clean. Results of Re
 
 ### Benchmark
 
-I share my benchmark as a gist [here](https://gist.github.com/VV0JCIECH/a4b0e92f7660d8cae50d708fa394578e). Please feel free
+I share my benchmark as a gist [here](https://gist.github.com/VV0JC13CH/a4b0e92f7660d8cae50d708fa394578e). Please feel free
 to run tests by yourself or extend it by some other libraries.
 
 ## Links

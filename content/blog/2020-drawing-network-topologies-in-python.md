@@ -77,19 +77,19 @@ A quick overview of my outputs. I'm not going to replace docs of these modules, 
 In this "lab" I created structure like below:
 
 <strong>Scripts:</strong>  
-./[n2g_d_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_drawio_handler.py)  
-./[n2g_y_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_yEd_handler.py)  
-./[ndwiag_handler.py](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag_handler.py)  
+./[n2g_d_handler.py](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_drawio_handler.py)  
+./[n2g_y_handler.py](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/n2g_yEd_handler.py)  
+./[ndwiag_handler.py](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag_handler.py)  
 
 <strong>Source and output files:</strong>  
-./diagrams/[ndwiag.diag](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag.diag)  
+./diagrams/[ndwiag.diag](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag.diag)  
 ./diagrams/[ndwiag.png]({static}/images/2020-09-network-topologies-ndwiag.png)  
-./diagrams/[output_drawio.drawio](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_drawio.drawio)  
+./diagrams/[output_drawio.drawio](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_drawio.drawio)  
 ./diagrams/[output_drawio_export.png]({static}/images/2020-09-network-topologies-n2gDrawio.png)  
-./diagrams/[output_yEd.graphml](https://gist.githubusercontent.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_yEd.graphml)  
+./diagrams/[output_yEd.graphml](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_yEd.graphml)  
 ./diagrams/[output_yEd_export.png]({static}/images/2020-09-network-topologies-n2gyEd.png)  
 
-I published my code as a gist [here](https://gist.github.com/VV0JCIECH/7e701a7f6e257d714833e16daff3b519). Please feel
+I published my code as a gist [here](https://gist.github.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519). Please feel
 free to edit and run this code for yourself.
 
 #### Need To Graph (yEd Graph Editor)
@@ -119,7 +119,7 @@ I thought it will be.
 #### Thanks!
 
 Thanks for taking the time to read this post, I hope you found it interesting. If you have any questions,
-join [my discord](https://discord.com/invite/DECS7TA) or [write on twitter](https://twitter.com/VV0JCIECH).
+join [my discord](https://discord.com/invite/DECS7TA) or [write on twitter](https://twitter.com/VV0JC13CH).
 
 ## Links
 
