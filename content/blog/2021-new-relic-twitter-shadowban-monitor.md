@@ -55,7 +55,7 @@ for everyone and shadowban lasts 2-3 days, so there is no need to know if ban is
 every 1 minute. Same with number of locations. One is enough, two should be max. Thank you.
 ```
 /**
- * This NewRelic synthetic. Script checks if user is shadowbanned on twitter
+ * This NewRelic synthetic. Script checks if user has shadowban on twitter
  */
 var USER = 'VV0JC13CH'
 var URL = 'https://shadowban.eu/.api/' + USER;
@@ -70,7 +70,6 @@ var options = {
     }};
 $http.get(options, function(error, response, body) {
     console.log(response.statusCode + " status code")
-    console.log(body)
     if (response.statusCode == 200){
         var json = JSON.parse(body)
         var test_exists = json["profile"]["exists"]
@@ -110,7 +109,7 @@ $http.get(options, function(error, response, body) {
         }
     }
     else{
-        // This script doesn't alert when API server is up or down:
+        // This script doesn't alert when API server is down or unhealthy:
         assert.ok(response.statusCode >= 500 && response.statusCode <= 520, response.statusCode + ' HTTP response status code');
     }
 
