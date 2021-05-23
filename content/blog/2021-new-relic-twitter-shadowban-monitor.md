@@ -1,7 +1,7 @@
 Title: Twitter Shadowban Monitor
 Date: 2021-05-23 12:00
 Category: DevOps
-Tags: monitoring, new relic, javascript
+Tags: monitoring, javascript
 Slug: twitter-shadowban-monitor
 Authors: Wojciech Bobrowski
 template: article
