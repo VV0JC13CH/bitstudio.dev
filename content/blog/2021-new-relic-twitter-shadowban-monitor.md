@@ -44,12 +44,11 @@ Assuming the response is 200. Below are the typical json replies from the server
 {"profile": {"has_tweets": true, "sensitives": {"possibly_sensitive": 0, "counted": 79, "possibly_sensitive_editable": 24}, "protected": false, "exists": true, "screen_name": "Account"}, "tests": {"search": "false", "typeahead": false, "ghost": {"ban": true}, "more_replies": {"error": "EUNKNOWN"}}, "timestamp": 123456789.123456}
 ```
 It's not easy to notice, that in case of ban `search` key gets value `false`, but without ban it points to id of founded tweet `0123456789123456789` (from above example).
-#### Script
+#### Monitor script
 With proper research it's much easier to write a monitor script. It took me some time to understand 
 API behaviour of this particular service. Feel free to copy and use below code. If you are not familiar with synthetic 
 monitors in New Relic, go to [documentation](https://docs.newrelic.com/docs/synthetics/synthetic-monitoring/scripting-monitors/write-synthetic-api-tests/). 
-It's nothing more than 2 clicks of the mouse. The only action here is changing
-`var USER = 'VV0JC13CH'` with different account name.
+It's nothing more than 2 clicks of the mouse. The only action here is changing variable `USER` with different account name.
 
 Please set `period` time of monitor to something longer than 5 minutes. Site [shadowban.eu](https://shadowban.eu) is free
 for everyone and shadowban lasts 2-3 days, so there is no need to know if ban is active
