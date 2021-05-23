@@ -50,9 +50,9 @@ API behaviour of this particular service. Feel free to copy and use below code. 
 monitors in New Relic, go to [documentation](https://docs.newrelic.com/docs/synthetics/synthetic-monitoring/scripting-monitors/write-synthetic-api-tests/). 
 It's nothing more than 2 clicks of the mouse. The only action here is changing variable `USER` with different account name.
 
-Please set `period` time of monitor to something longer than 5 minutes. Site [shadowban.eu](https://shadowban.eu) is free
+Please set `period` time of monitor to something longer than 10 minutes. Site [shadowban.eu](https://shadowban.eu) is free
 for everyone and shadowban lasts 2-3 days, so there is no need to know if ban is active
-every 1 minute. Thank you.
+every 1 minute. Same with number of locations. One is enough, two should be max. Thank you.
 ```
 /**
  * This NewRelic synthetic. Script checks if user is shadowbanned on twitter
