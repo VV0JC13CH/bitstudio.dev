@@ -55,7 +55,8 @@ for everyone and shadowban lasts 2-3 days, so there is no need to know if ban is
 every 1 minute. Same with number of locations. One is enough, two should be max. Thank you.
 ```
 /**
- * This NewRelic synthetic. Script checks if user has shadowban on twitter
+ * This is NewRelic synthetic monitor script. 
+ * It checks if user has shadowban on twitter
  */
 var USER = 'VV0JC13CH'
 var URL = 'https://shadowban.eu/.api/' + USER;
@@ -116,6 +117,15 @@ $http.get(options, function(error, response, body) {
     }
 
 );
+```
+#### Example output
+```
+200 status code
+@vv0jc13ch account exists
+@vv0jc13ch has tweets
+No Search Ban
+No Search Suggestion Ban
+No Ghost Ban
 ```
 #### Known limitation
 If shadowban on Twitter is active and shadowban.eu will go down. Monitor is going to resolve incident and create next one
