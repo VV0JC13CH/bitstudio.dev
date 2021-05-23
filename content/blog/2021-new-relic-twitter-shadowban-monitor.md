@@ -118,4 +118,8 @@ $http.get(options, function(error, response, body) {
 
 );
 ```
+#### Known limitation
+If shadowban on Twitter is active and shadowban.eu will go down. Monitor is going to resolve incident and create next one
+when API will be once again available. 
+
 Good luck with bans! I hope you are kind to others :-)
