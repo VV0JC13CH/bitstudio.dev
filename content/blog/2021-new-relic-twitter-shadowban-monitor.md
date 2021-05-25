@@ -71,11 +71,12 @@ var options = {
     }};
 $http.get(options, function(error, response, body) {
     console.log(response.statusCode + " status code")
+    console.log(body)
     if (response.statusCode == 200){
         var json = JSON.parse(body)
-        var test_exists = json["profile"]["exists"]
+        var test_account_exists = json["profile"]["exists"]
         var test_has_tweets = json["profile"]["has_tweets"]
-        if (test_has_tweets== true && test_exists == true){
+        if (test_has_tweets== true && test_account_exists == true){
             console.log('@' + USER + ' account exists')
             console.log('@' + USER + ' has tweets')
             var test_search = json["tests"]["search"]
@@ -98,11 +99,10 @@ $http.get(options, function(error, response, body) {
             }
             else{
                 console.log('No Ghost Ban')
-                assert.ok(test_exists != false, 'Account @' + USER + 'does not exist');
-                assert.ok(ghost_ban != true, 'Ghost ban is detected');
-                assert.ok(test_search != false, 'Search ban detected');
-                assert.ok(test_typeahead != false, 'Search suggestion ban detected');
             }
+            assert.ok(ghost_ban == false, 'Ghost ban detected');
+            assert.ok(test_search != false, 'Search ban detected');
+            assert.ok(test_typeahead != false, 'Search suggestion ban detected');
         }
         else {
             assert.ok(test_exists != false, 'Account @' + USER + 'does not exist');
@@ -110,7 +110,7 @@ $http.get(options, function(error, response, body) {
         }
     }
     else{
-        // This script doesn't alert when API server is down or unhealthy:
+        // This script doesn't alert when API server is up or down:
         assert.ok(response.statusCode >= 500 && response.statusCode <= 520, response.statusCode + ' HTTP response status code');
     }
 
