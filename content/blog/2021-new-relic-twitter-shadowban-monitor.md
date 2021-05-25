@@ -99,14 +99,14 @@ $http.get(options, function(error, response, body) {
             else{
                 console.log('No Ghost Ban')
                 assert.ok(test_exists != false, 'Account @' + USER + 'does not exist');
-                assert.ok(ghost_ban != true, 'Ghost ban is ' + ghost_ban);
-                assert.ok(test_search != false, 'Search ban is ' + test_search);
-                assert.ok(test_typeahead != false, 'Search suggestion ban is ' + test_typeahead);
+                assert.ok(ghost_ban != true, 'Ghost ban is detected');
+                assert.ok(test_search != false, 'Search ban detected');
+                assert.ok(test_typeahead != false, 'Search suggestion ban detected');
             }
         }
         else {
             assert.ok(test_exists != false, 'Account @' + USER + 'does not exist');
-            console.log('Account has no tweets. Skipping shadowban tests.')
+            console.log('Account has no tweets. Skipping ghost ban tests.')
         }
     }
     else{
