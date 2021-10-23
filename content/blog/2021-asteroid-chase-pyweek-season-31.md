@@ -3,7 +3,7 @@ Date: 2021-04-15 01:00
 Category: GameDev
 Tags: gamejams
 Slug: pyweek31-asteroid-chase
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 template: article
 thumbnail: images/thumbnails/asteroid.png
 Summary: I really like Python and games. To combine these two passions, I parcitipate in PyWeeks. This event is very special to me because no matter what theme people choose, no matter what framework your game is written in, Python is always present.

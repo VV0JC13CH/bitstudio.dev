@@ -3,7 +3,7 @@ Date: 2020-09-16 12:00
 Category: Python
 Tags: network
 Slug: drawing-network-topologies-in-python
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 template: article
 thumbnail: images/thumbnails/network.png
 Summary: I plugged the last missing device into my home network (yes, it was router) and was finally able to move on to the network configuration of my DIY datacenter. Unfortunately, I don't have the head to remember all these subnets and configurations, and I have no interest in creating IaC at home. So I thought to myself that I would create a network, draw it and in this way I could remind myself anytime which ports, where, to what and how are connected. Since I am not an artist, I drew a network using the power of Python.

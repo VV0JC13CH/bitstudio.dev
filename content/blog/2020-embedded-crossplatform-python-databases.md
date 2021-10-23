@@ -3,7 +3,7 @@ Date: 2020-08-28 12:00
 Category: Python
 Tags: benchmark, WIP
 Slug: embedded-cross-platform-python-databases
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 template: article
 thumbnail: images/thumbnails/graph.png
 Summary: Recently I have been looking for a way to save states of my scripts in python and return to them freely later. I came up with an idea to use embedded database. An additional criterion was that it should be easily transferable between environments. Here is my benchmark of databases that can be installed directly from the pip program.

@@ -3,7 +3,7 @@ Date: 2020-01-31 16:00
 Category: Python
 Tags: guides
 Slug: make-a-netlify-website-with-pelican
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 template: article
 thumbnail: images/thumbnails/pelican.png
 Summary: Pelican is a static site generator written in python. It's well documented and maintained by a broad community. Let's see what is inside this bird and how far we can fly with it.

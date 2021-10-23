@@ -4,7 +4,7 @@ Modified: 2020-01-28 16:00
 Category: Site
 Template: page_contact
 Slug: about
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 Summary: Few words about me
 
 Hello world! I'm Wojciech. Currently I work as a Site Reliability Engineer in one of cloud companies.

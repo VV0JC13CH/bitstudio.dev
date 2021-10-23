@@ -3,7 +3,7 @@ Date: 2020-08-05 01:00
 Category: GameDev
 Tags: guides, WIP
 Slug: basics-of-procedural-2D-map-generation
-Authors: Wojciech Bobrowski
+Authors: Wojciech
 template: article
 thumbnail: images/thumbnails/arcade.png
 Summary: There are many benefits of using a procedural generation in games. And it's not about randomness for players, it's about predictability for developers.
