@@ -1,13 +1,13 @@
-Title: Make a Netlify Website with Pelican
-Date: 2020-01-31 16:00
-Category: Python
-Tags: guides
-Slug: make-a-netlify-website-with-pelican
-Authors: Wojciech
-template: article
-thumbnail: images/thumbnails/pelican.png
-Summary: Pelican is a static site generator written in python. It's well documented and maintained by a broad community. Let's see what is inside this bird and how far we can fly with it.
-
++++
+title = "Make a Netlify Website with Pelican"
+date = 2020-01-31
+description = "Pelican is a static site generator written in python. It's well documented and maintained by a broad community. Let's see what is inside this bird and how far we can fly with it."
+path = "make-a-netlify-website-with-pelican"
+[taxonomies]
+categories=["snippets"]
+tags=["python", "guides"]
+[extra]
++++
 More often people are overwhelmed by the scale of popular CMS frameworks. The current version of Wordpress is developed in so many directions that it's not a problem to build a shop, auction site or even blog (applause) in a couple of minutes. Universalism is not a bad thing until it has no influence on performance. If a site doesn't require dynamic content or if all interactive parts can be easily replaced by code in javascript, you should give a chance to static site generators.
 
 ## Introduction

@@ -1,12 +1,13 @@
-Title: Twitter Shadowban Monitor
-Date: 2021-05-23 12:00
-Category: DevOps
-Tags: monitoring, javascript
-Slug: twitter-shadowban-monitor
-Authors: Wojciech
-template: article
-thumbnail: images/thumbnails/newrelic.png
-Summary: Twitter likes bans a lot, and more specifically shadowbans. It's very easy to get one as they are assigned by the built-in abnormal activity detection. They usually last 2-3 days, but users usually don't know it. So let's increase awareness by setting up the appropriate monitor.
++++
+title = "Twitter Shadowban Monitor"
+date = 2021-05-23
+description = "Twitter likes bans a lot, and more specifically shadowbans. It's very easy to get one as they are assigned by the built-in abnormal activity detection. They usually last 2-3 days, but users usually don't know it. So let's increase awareness by setting up the appropriate monitor."
+path = "twitter-shadowban-monitor"
+[taxonomies]
+categories=["snippets"]
+tags=["javascript", "monitoring"]
+[extra]
++++
 ## Introduction
 Twitter likes bans a lot, and more specifically shadowbans. It's very easy to get one as they are assigned by the 
 built-in abnormal activity detection. They usually last 2-3 days, but users usually don't know it, as it allows access 

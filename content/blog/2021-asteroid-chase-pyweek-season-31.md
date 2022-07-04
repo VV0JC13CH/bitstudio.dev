@@ -1,12 +1,14 @@
-Title: Asteroid Chase - Pyweek, Season 31
-Date: 2021-04-15 01:00
-Category: GameDev
-Tags: gamejams
-Slug: pyweek31-asteroid-chase
-Authors: Wojciech
-template: article
-thumbnail: images/thumbnails/asteroid.png
-Summary: I really like Python and games. To combine these two passions, I parcitipate in PyWeeks. This event is very special to me because no matter what theme people choose, no matter what framework your game is written in, Python is always present.
++++
+title = "Asteroid Chase - Pyweek, Season 31"
+date = 2021-04-15
+description = "I really like Python and games. To combine these two passions, I parcitipate in PyWeeks. This event is very special to me because no matter what theme people choose, no matter what framework your game is written in, Python is always present."
+path = "pyweek31-asteroid-chase"
+[taxonomies]
+categories=["blog"]
+tags=["python", "gamejam"]
+[extra]
+feature_image = "asteroid.png"
++++
 ## Introduction
 I really like Python and games. 
 To combine these two passions, I parcitipate in PyWeeks. 

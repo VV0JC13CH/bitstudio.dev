@@ -1,13 +1,14 @@
-Title: Procedural 2D map generation
-Date: 2020-08-05 01:00
-Category: GameDev
-Tags: guides, WIP
-Slug: basics-of-procedural-2D-map-generation
-Authors: Wojciech
-template: article
-thumbnail: images/thumbnails/arcade.png
-Summary: There are many benefits of using a procedural generation in games. And it's not about randomness for players, it's about predictability for developers.
-
++++
+title = "Procedural 2D map generation"
+date = 2020-08-05
+description = "There are many benefits of using a procedural generation in games. And it's not about randomness for players, it's about predictability for developers."
+path = "basics-of-procedural-2D-map-generation"
+[taxonomies]
+categories=["blog"]
+tags=["python", "blog"]
+[extra]
+feature_image = "arcade.png"
++++
 ## Introduction
 In this article, I will show you how to create simple 2-dimensional map based on Simplex Noise.
 We are going to write a map generator in Python using The Python Arcade as a game engine and OpenSimplex library 

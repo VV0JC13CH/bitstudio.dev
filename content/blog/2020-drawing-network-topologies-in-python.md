@@ -1,12 +1,15 @@
-Title: Drawing network topologies in Python
-Date: 2020-09-16 12:00
-Category: Python
-Tags: network
-Slug: drawing-network-topologies-in-python
-Authors: Wojciech
-template: article
-thumbnail: images/thumbnails/network.png
-Summary: I plugged the last missing device into my home network (yes, it was router) and was finally able to move on to the network configuration of my DIY datacenter. Unfortunately, I don't have the head to remember all these subnets and configurations, and I have no interest in creating IaC at home. So I thought to myself that I would create a network, draw it and in this way I could remind myself anytime which ports, where, to what and how are connected. Since I am not an artist, I drew a network using the power of Python.
++++
+title = "Network topologies in Python"
+date = 2020-09-16
+description = "How to draw a network using the power of Python."
+path = "drawing-network-topologies-in-python"
+[taxonomies]
+categories=["python"]
+tags=["python", "blog"]
+[extra]
+feature_image = "network.png"
++++
+I plugged the last missing device into my home network (yes, it was router) and was finally able to move on to the network configuration of my DIY datacenter. Unfortunately, I don't have the head to remember all these subnets and configurations, and I have no interest in creating IaC at home. So I thought to myself that I would create a network, draw it and in this way I could remind myself anytime which ports, where, to what and how are connected. Since I am not an artist, I drew a network using the power of Python.
 
 ## Long story short
 I plugged the last missing device into my home network (yes, it was router) and was finally able to move on to
@@ -45,20 +48,20 @@ but you know the sky is the limit.
 mechanism. The script draws network based on discovered traces of levels 2 and 3.
 
 ### Comparison
-
-|Functions              |    nwdiag     |N2G yed_diagram                |N2G drawio_diagram          |
-|---	                |:---:	        |:---:	                        |:---:	                        |
-|network assignment     |   ✅	        |  💩	                        |   💩                          |
-|ports assignment       |   💩          |  ✅ 	                        |   💩   	                    |
-|address assignment     |   ✅          |  💩 	                        |   💩   	                    |
-|layouts                |   💩          |  ✅ 	                        |   ✅   	                    |
-|additional top label   |   💩          |  ✅ 	                        |   💩   	                    |
-|additional bottom label|   💩          |  ✅ 	                        |   💩   	                    |
-|linking custom data    |   💩          |  ✅ 	                        |   ✅  	                    |
-|naming links           |   💩          |  ✅ 	                        |   ✅  	                    |
-|nodes as svg icons     |   💩          |  ✅ 	                        |   ✅  	                    |
-|<strong>Score:</strong>|   2           |  7 	                        |   4  	                        |
-
+```markdown
+|Functions              |    nwdiag     |N2G yed_diagram                |N2G drawio_diagram   |
+|---	                |:---:	        |:---:	                        |:---:	              |
+|network assignment     |   ✅	        |  💩	                        |   💩               |
+|ports assignment       |   💩          |  ✅ 	                        |   💩   	         |
+|address assignment     |   ✅          |  💩 	                        |   💩   	         |
+|layouts                |   💩          |  ✅ 	                        |   ✅   	        |
+|additional top label   |   💩          |  ✅ 	                        |   💩   	         |
+|additional bottom label|   💩          |  ✅ 	                        |   💩   	         |
+|linking custom data    |   💩          |  ✅ 	                        |   ✅  	            |
+|naming links           |   💩          |  ✅ 	                        |   ✅  	            |
+|nodes as svg icons     |   💩          |  ✅ 	                        |   ✅  	            |
+|<strong>Score:</strong>|   2           |  7 	                        |   4  	              |
+```
 
 ### Setup of my network
 
