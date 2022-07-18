@@ -35,14 +35,14 @@ believed at that time that "bridging the gaps" will win as a theme. I wanted to 
 filling gaps in front of him on time. But yeah, I mentioned that top 1 theme never wins. Do guess what, Cops win. Our
 number 5. We didn't have even idea for that game... 
 
-![aquila]({static}/images/2021-04-asteroid-chase-aquila.gif) ![snooker]({static}/images/2021-04-asteroid-chase-snooker.gif)
+![aquila](2021-04-asteroid-chase-aquila.gif) ![snooker](2021-04-asteroid-chase-snooker.gif)
 
 ## Cops
 Mit-mit was like a fish in a sea. We made a 0-hour meeting. For me it was 1am, for him 11am, as we are from 
 different timezones. Double-Mit had the idea. Space chase. Left-to-right chase game with 
 [pyMunk](http://www.pymunk.org/en/latest/) as a physic game engine. Soon he came with first art:
 
-![first art]({static}/images/2021-04-asteroid-chase-art.png)
+![first art](2021-04-asteroid-chase-art.png)
 
 So I started to look for inspiration. 
 [Mini-map defender](https://arcade.academy/examples/mini_map_defender.html#mini-map-defender) tutorial looked perfect, 
@@ -73,7 +73,7 @@ which has just arrived in the capital to repair his rusty police ship.
 His plans change when he hears about a grand theft on the police radio. 
 Help him catch the thieves of the imperial crown!
 
-![gameplay]({static}/images/2021-04-asteroid-chase-gameplay.gif)
+![gameplay](2021-04-asteroid-chase-gameplay.gif)
 
 The plans were huge. Inventory, weapons, cutscenes, non-linear plot ... yeah. I had the idea to draw the parts of the 
 crown one by one to reward the player on the end of each level. The player had to shoot the enemies, and when their 

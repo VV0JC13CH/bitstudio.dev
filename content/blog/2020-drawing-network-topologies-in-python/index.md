@@ -49,18 +49,18 @@ mechanism. The script draws network based on discovered traces of levels 2 and 3
 
 ### Comparison
 ```markdown
-|Functions              |    nwdiag     |N2G yed_diagram                |N2G drawio_diagram   |
-|---	                |:---:	        |:---:	                        |:---:	              |
-|network assignment     |   ✅	        |  💩	                        |   💩               |
-|ports assignment       |   💩          |  ✅ 	                        |   💩   	         |
-|address assignment     |   ✅          |  💩 	                        |   💩   	         |
-|layouts                |   💩          |  ✅ 	                        |   ✅   	        |
-|additional top label   |   💩          |  ✅ 	                        |   💩   	         |
-|additional bottom label|   💩          |  ✅ 	                        |   💩   	         |
-|linking custom data    |   💩          |  ✅ 	                        |   ✅  	            |
-|naming links           |   💩          |  ✅ 	                        |   ✅  	            |
-|nodes as svg icons     |   💩          |  ✅ 	                        |   ✅  	            |
-|<strong>Score:</strong>|   2           |  7 	                        |   4  	              |
+|Functions              |    nwdiag     |N2G yed_diagram    |N2G drawio_diagram   |
+|---	                |:---:	        |:---:	            |:---:	              |
+|network assignment     |   ✅	        |  💩	           |   💩                |
+|ports assignment       |   💩          |  ✅ 	           |   💩   	         |
+|address assignment     |   ✅          |  💩 	           |   💩   	         |
+|layouts                |   💩          |  ✅ 	           |   ✅   	            |
+|additional top label   |   💩          |  ✅ 	           |   💩   	         |
+|additional bottom label|   💩          |  ✅ 	           |   💩   	         |
+|linking custom data    |   💩          |  ✅ 	           |   ✅  	            |
+|naming links           |   💩          |  ✅ 	           |   ✅  	            |
+|nodes as svg icons     |   💩          |  ✅ 	           |   ✅  	            |
+|Score:                 |   2           |  7 	            |   4  	              |
 ```
 
 ### Setup of my network
@@ -86,11 +86,11 @@ In this "lab" I created structure like below:
 
 <strong>Source and output files:</strong>  
 ./diagrams/[ndwiag.diag](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/nwdiag.diag)  
-./diagrams/[ndwiag.png]({static}/images/2020-09-network-topologies-ndwiag.png)  
+./diagrams/[ndwiag.png](2020-09-network-topologies-ndwiag.png)  
 ./diagrams/[output_drawio.drawio](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_drawio.drawio)  
-./diagrams/[output_drawio_export.png]({static}/images/2020-09-network-topologies-n2gDrawio.png)  
+./diagrams/[output_drawio_export.png](2020-09-network-topologies-n2gDrawio.png)  
 ./diagrams/[output_yEd.graphml](https://gist.githubusercontent.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519/raw/e7ccabab6ab25094077708ca172582fa324ec578/output_yEd.graphml)  
-./diagrams/[output_yEd_export.png]({static}/images/2020-09-network-topologies-n2gyEd.png)  
+./diagrams/[output_yEd_export.png](2020-09-network-topologies-n2gyEd.png)  
 
 I published my code as a gist [here](https://gist.github.com/VV0JC13CH/7e701a7f6e257d714833e16daff3b519). Please feel
 free to edit and run this code for yourself.
@@ -100,7 +100,7 @@ free to edit and run this code for yourself.
 Great module. You can add top and bottom labels to nodes, the same with naming ports. It's possible to reorganize the
 placement of nodes automatically inside yEd editor.
 
-![yEd_output]({static}/images/2020-09-network-topologies-n2gyEd.png)
+![yEd_output](2020-09-network-topologies-n2gyEd.png)
 
 #### nwdiag
 In order to use ndwiag module, it's required to create a *.diag file with proper syntax. User has no impact or access to
@@ -108,7 +108,7 @@ module methods and objects, so the only thing we can do is:
 ```python
 nwdiag diagrams/nwdiag.diag
 ```
-![ndwiag_output]({static}/images/2020-09-network-topologies-ndwiag.png)
+![ndwiag_output](2020-09-network-topologies-ndwiag.png)
 
 I cant find a way to tweak png compression level to have fonts so clean as [in this demo](http://blockdiag.com/en/nwdiag/demo.html).
 I grayed area to mark devices placed inside single rack.
@@ -117,7 +117,7 @@ I grayed area to mark devices placed inside single rack.
 As I wrote above, there is no way to name ports, so I named links after them. The created network looks better than
 I thought it will be.
 
-![drawio_output]({static}/images/2020-09-network-topologies-n2gDrawio.png)
+![drawio_output](2020-09-network-topologies-n2gDrawio.png)
 
 #### Thanks!
 

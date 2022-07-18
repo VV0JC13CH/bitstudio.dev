@@ -58,7 +58,7 @@ so slow that I had to remove them from the graph to keep it clean. Results of Re
 [original one](https://charlesleifer.com/blog/completely-un-scientific-benchmarks-of-some-embedded-databases-with-python/).
 
 
-![Graph]({static}/images/2020-09-embedded-cross-platform-python-databases.png)
+![Graph](2020-09-embedded-cross-platform-python-databases.png)
 
 
 ### Benchmark
