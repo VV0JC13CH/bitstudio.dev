@@ -1,6 +1,6 @@
 +++
 title = "Welcome!"
-description = "My name is Wojciech and this is my site about Python, Linux and FOSS software."
+description = "Hi! I'm VV0JC13CH and this is my site about Python, Linux and FOSS software."
 date = 2021-11-12
 sort_by = "weight"
 transparent = true
