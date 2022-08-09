@@ -1,2 +1,2 @@
 # bitstudio.dev
-Personal website running on Pelican and Jinja2.
+Personal website running on Zola and Izy theme.
