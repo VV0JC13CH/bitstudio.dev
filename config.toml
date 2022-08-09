@@ -122,6 +122,7 @@ truncate_content_length = 100
 
 [extra]
 enable_multilingue = false
+favicon = "/images/favicon.ico"
 
 [extra.navbar]
 title = ""
@@ -135,7 +136,7 @@ items = [
 ]
 
 [extra.sidebar]
-enabled = true
+enabled = false
 show_categories = true
 position = 'right' # left / right
 custom_items = [
