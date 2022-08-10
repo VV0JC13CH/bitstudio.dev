@@ -124,6 +124,10 @@ truncate_content_length = 100
 enable_multilingue = false
 favicon = "/images/favicon.ico"
 
+[extra.ga]
+id = "UA-137173622-1"
+enable = true
+
 [extra.navbar]
 title = ""
 items = [
