@@ -126,7 +126,7 @@ favicon = "/images/favicon.ico"
 
 [extra.ga]
 id = "UA-137173622-1"
-enable = true
+enabled = true
 
 [extra.navbar]
 title = ""
