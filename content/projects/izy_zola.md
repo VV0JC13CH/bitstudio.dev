@@ -15,4 +15,4 @@ What's so special about Izy-Zola? Most Zola themes look like dokumentation pages
 
 To summarize core features, here is the list: Animated TOC, Dark/Light modes, Dedicated projects page, Icons (SVGs), Searching, Sidebar, Thumbnails. Under the hood, CSS is served by Tailwind in version 3.
 
-[Source](https://izy-zola.netlify.app/github) / [Demo](https://izy-zola.netlify.app/)
+[Source](https://github.com/VV0JC13CH/izy-zola) / [Demo](https://izy-zola.netlify.app/)
