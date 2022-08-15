@@ -9,6 +9,7 @@
   "packageRules": [
     {
       "automerge": true,
+      "automergeType": "pr",
       "automergeStrategy": "auto", 
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
