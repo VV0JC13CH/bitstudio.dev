@@ -1,5 +1,5 @@
 +++
-title = "Proxmox: get IP addresses of VMs in terraform using ARP"
+title = "Proxmox: gather dynamic IP addresses in terraform"
 date = 2023-02-12
 description = "In this post I will show how to gather IP addresses of Proxmox VMs based on MAC addresses of their network devices."
 [taxonomies]
