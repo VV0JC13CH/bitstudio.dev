@@ -42,8 +42,8 @@ In this example there is assumption that each VM has single network device. Scri
 
 ## Pre-requirements
 
--   Install pip inside Proxmox host `sudo apt install pip`
--   Install python-libnmap `pip install python-libnmap`
+-   Install pip inside Proxmox host: `sudo apt install pip`
+-   Install python-libnmap: `pip install python-libnmap`
 -   Ensure you have ssh key that gives access to Proxmox host without passphrase
 -   Basic Terraform workspace for Proxmox
 
