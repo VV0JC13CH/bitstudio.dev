@@ -51,7 +51,7 @@ In this example there is assumption that each VM has single network device. Scri
 
 ### Add private ssh key to secrets
 
-Encode private ssh key of your used with base64. It's required because env vars do not accept newlines. Please keep in mind that this is not top tier secure solution, do it for your lab, but not production.
+Encode private ssh key of your user with base64. It's required because env vars do not accept newlines. Please keep in mind that this is not top tier secure solution, do it for your lab, but not production.
 
 ```bash
  ~/.ssh/id_rsa_pve -w 0
