@@ -9,16 +9,14 @@ tags=["proxmox", "terraform", "python", "bash", "talos"]
 
 ## Issue
 
--   IP addresses are unknown after creation of VMs with [Talos Linux](https://www.talos.dev/v1.3/talos-guides/). It's not possible to assign QEMU agent to control them. They are assigned by local DHCP server (router) and are hard to predict. The only way to read them is \
-    by using built-in Proxmox shell and copy them from display. Imahes do not allow control over shell, only access is through API. It's possible to change IP addresses by API, but to reach API IP address has to be known.
+-   IP addresses are unknown after creation of VMs with [Talos Linux](https://www.talos.dev/v1.3/talos-guides/). It's not possible to assign QEMU agent to control them. They are assigned by local DHCP server (router) and are hard to predict. The only way to read them is by using built-in Proxmox shell and copy them from display. Imahes do not allow control over shell, only access is through API. It's possible to change IP addresses by API, but to reach API IP address has to be known.
 
--   Integration of various providers in terraform requires additional manual work, f.e. [Telmate/proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs) with [Siderolabs/talos](https://registry.terraform.io/providers/siderolabs/talos/latest) \
-Each VM has to be created, IP has to be readed from display, IP has to be changed by API.
+-   Integration of various providers in terraform requires additional manual work, f.e. [Telmate/proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs) with [Siderolabs/talos](https://registry.terraform.io/providers/siderolabs/talos/latest). Each VM has to be created, IP has to be readed from display, IP has to be changed by API.
 <div align="center"> <img src="proxmox_shell.png" /> </div>
 
 ## Solution
 
-In order to automate full process of provisioning, from creation of VM in Proxmox to configuration, special type of terraform data, called 'External' will be implemented. \
+In order to automate full process of provisioning, from creation of VM in Proxmox to configuration, special type of terraform data, called 'External' has to be implemented.
 All IP addresses are going to be shown in output of Proxmox terraform workspace as below:
 
 ```terraform
