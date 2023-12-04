@@ -72,7 +72,7 @@ highlight_themes_css = [
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
-render_emoji = false
+render_emoji = true
 
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
@@ -97,7 +97,7 @@ skip_prefixes = [
 
 # Skip anchor checking for external URLs that start with these prefixes
 skip_anchor_prefixes = [
-    "https://caniuse.com/",
+    "https://bitstudio.dev",
 ]
 
 # Various slugification strategies, see below for details
@@ -133,10 +133,11 @@ title = ""
 items = [
     { lang = "en", links = [
         { url = "/about", name = "About"},
-        { url = "/blog", name = "Blog"},
-        { url = "/snippets", name = "Snippets"},
+        { url = "/showcase", name = "Showcase"},
+        { url = "/devlogs", name = "Devlogs"},
         { url = "/projects", name = "Projects"},
     ] },
+
 ]
 
 [extra.sidebar]
@@ -152,5 +153,6 @@ custom_items = [
 [extra.social]
 links = [
 {github = "https://github.com/VV0JC13CH"},
-{twitter = "https://twitter.com/VV0JC13CH"},
+{youtube = "https://www.youtube.com/@BitStudioDev"},
+{mastodon = "https://mastodon.social/@wojciech"},
 ]
